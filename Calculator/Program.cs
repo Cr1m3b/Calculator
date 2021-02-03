@@ -6,7 +6,7 @@ namespace Calculator
     {
         static void Main(string[] args)
         {
-            int Choise;
+            int Choice;
             int Number1;
             int Number2;
             int Result;
@@ -16,14 +16,14 @@ namespace Calculator
             Console.WriteLine("2:  Substruct");
             Console.WriteLine("3:  Multiply");
             Console.WriteLine("4:  Divide");
-            Choise = Convert.ToInt32(Console.ReadLine());
+            Choice = Convert.ToInt32(Console.ReadLine());
 
             Console.Write("Please select the first number: ");
             Number1 = Convert.ToInt32(Console.ReadLine());
             Console.Write("Please select the second number: ");
             Number2 = Convert.ToInt32(Console.ReadLine());
 
-            switch (Choise)
+            switch (Choice)
             {
                 case 1:
                     Result = Number1 + Number2;
